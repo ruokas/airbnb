@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+html   {
+    font-family: 'Proza Libre', sans-serif;
+    background-color: burlywood;
+}
+header {
+    padding: 30px 30px 50px 30px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.4405112386751575) 0%, rgba(0,212,255,0) 100%);
+}
+.logo {
+    float: left;
+    width: 120px;
+    padding: 0 60px;
+    position: absolute;
+    background: none;
+}
+.globe {
+    background: none;
+    border: none;
+    color: white;
+}
+.menu {
+    float: right;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+.menu a:hover{
+    background-color: rgba(0,0,0,.5);
+    border-radius: 20px;
+}
+.box{
+    margin: 80px;
+    padding: 30px;
+    float: left;
+    background-color: white;
+    width: 385px;
+    color: rgb(61, 61, 61);
+    border-radius: 4px;
+}
+.box h1{
+    font-size: 28px;
+}
+.box h1 a{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+.box label{
+    font-size: 12px;
+}
+.box input{
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: solid rgb(228, 228, 228) 1px;
+}
+::placeholder{
+    padding: 10px;
+    font-size: 17px;
+}
+.search {
+    width: 110px;
+    float: right;
+    background-color: rgb(231, 89, 101);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.checkin {
+    padding-right: 128px;
+}
+.inp {
+    width: 100%;
+    background: none;
+    font-size: 17px;
+    color: grey;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.d1 {
+    width: 188px;
+}
+.bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin: 0;
+
+}
